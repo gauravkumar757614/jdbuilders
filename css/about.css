@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=DM+Serif+Display:ital@0;1&family=Oswald:wght@400;500;600&display=swap");
+
+/* font-family: 'Concert One', sans-serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Oswald', sans-serif; */
+
+/* First row */
+#first_heading {
+  font-family: "DM Serif Display", serif;
+  font-size: 34px !important;
+  color: #2F4F4F;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+}
+
+#first_paragraph {
+  /* font-family: "Concert One", sans-serif; */
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+#first_image {
+  border-radius: 20px;
+}
+
+/* Second row */
+#second_heading {
+  font-family: "DM Serif Display", serif;
+  font-size: 34px !important;
+  color: #2F4F4F;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+}
+
+#second_paragraph {
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+#second_image {
+  border-radius: 20px;
+}
+
+/* Third row */
+#third_heading {
+  font-family: "DM Serif Display", serif;
+  font-size: 34px !important;
+  color: #2F4F4F;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+}
+
+#third_paragraph {
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+#third_image {
+  border-radius: 20px;
+}

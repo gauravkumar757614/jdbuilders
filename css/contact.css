@@ -1,0 +1,14 @@
+.contact_heading_container{
+    height: 200px;
+    border: 1px solid;
+
+}
+
+.contact_header_image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    filter: brightness(0.8);
+}
+
