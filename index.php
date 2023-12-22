@@ -30,7 +30,7 @@
                 <a class="navbar-brand nv-brnd" href="landing.php">
                     <img src="asset/logo.jpg" alt="logo" width="50">
                     <span class="logo_text">
-                       JD Builders
+                        JD Builders
                     </span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,17 +45,8 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="about.php">About</a>
                         </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Services
-                            </a>
-                            <ul class="dropdown-menu bg-dark text-white">
-                                <li><a class="dropdown-item" href="#">Residential</a></li>
-                                <li><a class="dropdown-item" href="#">industrial</a></li>
-                                <li><a class="dropdown-item" href="#">commercial</a></li>
-                                <li><a class="dropdown-item" href="#">Government Contractors</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="services.php">Services</a>
                         </li>
 
                         <li class="nav-item">
@@ -77,8 +68,7 @@
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" 
-            aria-label="Slide 1">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
             </button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -135,7 +125,7 @@
             <div class="row">
                 <div class="col-6 mt-5">
                     <h3 id="basic_heading">
-                        JD Builders
+                       WHO ARE WE
                     </h3>
                     <p id="basic_para">
                         Established with a passion for excellence and a commitment to unparalleled craftsmanship,
@@ -160,8 +150,8 @@
                         Choose JD Builder for a construction experience that goes beyond bricks and mortar, crafting
                         spaces that inspire and endure.
                     </p>
-                </div>
-                <div class="col-6 mt-5">
+                </div> 
+                <div class="col-6 mt-5 right_image">
                     <div class="right_side">
                         <img src="asset/basicinfo/basic1.jpg" alt="">
                     </div>
@@ -171,7 +161,7 @@
         </div>
     </section>
     <!-- Basic inform end -->
-    
+
     <!-- Footer section -->
     <footer class="bg-dark text-white pt-5 pb-4 mt-5">
         <div class="container text-md-left">
@@ -289,7 +279,7 @@
             </div>
         </div>
     </footer>
-     <!-- Footer section end -->
+    <!-- Footer section end -->
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

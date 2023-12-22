@@ -1,16 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap");
 
 /* Navbar */
-.navbar-toggler {
-  border: none;
-  font-size: 1.25rem;
-}
-
-.navbar-toggler:focus,
-.btn-close:focus {
-  box-shadow: none;
-  outline: none;
-}
-
 .nav-link {
   color: #e6e6eb;
   font-size: 18px;
@@ -22,18 +12,17 @@
 
 .nav-link:hover,
 .nav-link.active {
-  color: #e29898;
+  color: #b4a4a4;
 }
 
 .nav-link::before {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
   width: 0;
   height: 2px;
-  background-color: #009970;
+  background-color: #86c5b4;
   visibility: hidden;
   transition: 0.3s ease-in-out;
 }
@@ -111,11 +100,17 @@
 /* Hero end */
 
 /* Basic info */
-/* 
-.basic_info{
-  background-color: #212529;
-} */
-
+.basic_info {
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
+}
 
 .basic_info .right_side {
   width: 600px;
@@ -133,6 +128,12 @@
   );
 }
 
+.right_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .right_side img {
   height: 100%;
   width: 100%;
@@ -142,7 +143,7 @@
 .basic_info #basic_heading {
   font-family: "DM Serif Display", serif;
   font-size: 62px !important;
-  color: #2f4f4f;
+  color: #c7701f;
   font-weight: 600;
   line-height: 40px;
   text-align: left;
@@ -150,7 +151,8 @@
 }
 
 .basic_info #basic_para {
-  font-family: "DM Serif Display", serif;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
   font-size: 20px;
   text-align: justify;
   line-height: 30px;
