@@ -25,9 +25,9 @@
 <body>
     <!-- Navbar -->
     <div class="nav-container">
-        <nav class="navbar navbar-expand-lg bg-dark text-white">
+        <nav class="navbar navbar-expand-lg backcolor text-white">
             <div class="container-fluid">
-                <a class="navbar-brand nv-brnd" href="landing.php">
+                <a class="navbar-brand nv-brnd" href="index.php">
                     <img src="asset/logo.jpg" alt="logo" width="50">
                     <span class="logo_text">
                         JD Builders
@@ -125,7 +125,7 @@
             <div class="row">
                 <div class="col-6 mt-5">
                     <h3 id="basic_heading">
-                       WHO ARE WE
+                        WHO WE ARE
                     </h3>
                     <p id="basic_para">
                         Established with a passion for excellence and a commitment to unparalleled craftsmanship,
@@ -150,9 +150,9 @@
                         Choose JD Builder for a construction experience that goes beyond bricks and mortar, crafting
                         spaces that inspire and endure.
                     </p>
-                </div> 
+                </div>
                 <div class="col-6 mt-5 right_image">
-                    <div class="right_side">
+                    <div class="right_side" data-aos="slide-left">
                         <img src="asset/basicinfo/basic1.jpg" alt="">
                     </div>
                 </div>
@@ -163,121 +163,51 @@
     <!-- Basic inform end -->
 
     <!-- Footer section -->
-    <footer class="bg-dark text-white pt-5 pb-4 mt-5">
-        <div class="container text-md-left">
-            <div class="row text-md-left">
+    <footer class="bg-dark text-white pb-4 pt-5 footer_section">
+        <div class="container">
 
-                <div class="col-5 px-3">
-                    <h5 class="text-uppercase mb-4">
-                        JD Builders
-                    </h5>
-                    <p id="footer_definition">
+            <div class="row">
+                <!-- Company definition part -->
+                <div class="col-6">
+                    <h4>JD BUILDERS</h4>
+                    <P class="company_defi mt-3">
                         JD Builder is a newly incorporated construction company dedicated to delivering top-notch
                         construction services across a spectrum of projects. Whether you envision a cozy home,
                         a modern office space, or a commercial establishment, JD Builder is here to turn your
                         aspirations into reality.
-                    </p>
-                    <!-- Social links -->
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <span>
-                                    <a href="https://facebook.com" class="social_link">
-                                        <i class='bx bxl-facebook-circle'></i>
-                                    </a>
-                                </span>
-                                <span class="mx-2">
-                                    <a href="https://instagram.com" class="social_link">
-                                        <i class='bx bxl-instagram'></i>
-                                    </a>
-                                </span>
-                                <span class="mx-2">
-                                    <a href="https://linkedin.com" class="social_link">
-                                        <i class='bx bxl-linkedin-square'></i>
-                                    </a>
-                                </span>
-                                <span class="mx-2">
-                                    <a href="https://twitter.com" class="social_link">
-                                        <i class='bx bxl-twitter'></i>
-                                    </a>
-                                </span>
-                            </div>
-                        </div>
+                    </P>
+                    <div class="d-flex">
+                        <a href="https://facebook.com" class="social_link social1">
+                            <i class='bx bxl-facebook-circle'></i>
+                        </a>
+                        <a href="https://instagram.com" class="social_link social2">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="https://linkedin.com" class="social_link social2">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                        <a href="https://twitter.com" class="social_link social2">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
                     </div>
-
-                    <!-- Social links end -->
                 </div>
 
-                <div class="col-5">
-                    <h5 class="text-uppercase mb-4">
-                        Contact us
-                    </h5>
-                    <!-- Address -->
-                    <div class="row">
-                        <div class="col-1">
-                            <i class="fas fa-home"></i>
-                        </div>
-                        <div class="col">
-                            <p>
-                                AGGARWAL ENCLAVE, BALLOKE ROAD, LUDHIANA - 141001
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Address end -->
-
-                    <!-- Email -->
-                    <div class="row">
-                        <div class="col-1">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="col">
-                            <p>
-                                gauravkumar@gmail.com
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Email end -->
-                </div>
-
-                <!-- Quikc links -->
-                <div class="col-2">
-                    <h5 class="text-uppercase mb-4">
-                        Quick links
-                    </h5>
-                    <p>
-                        <a href="index.php" class="text-white" id="footer_links" style="text-decoration: none;"> Home </a>
+                <!-- Company address section -->
+                <div class="col-4">
+                    <h4>Contact us</h4>
+                    <p class="address">
+                        Aggarwal enclave, opposite miraj palace,
+                        Ludhiana - 141001
                     </p>
-                    <p>
-                        <a href="about.php" class="text-white footer_links" style="text-decoration: none;"> About </a>
-                    </p>
-                    <p>
-                        <a href="services.php" class="text-white footer_links" style="text-decoration: none;"> Services </a>
-                    </p>
-                    <p>
-                        <a href="plans.php" class="text-white footer_links" style="text-decoration: none;"> Plans </a>
-                    </p>
-                    <p>
-                        <a href="contact.php" class="text-white footer_links" style="text-decoration: none;"> Contact </a>
+                    <p class="main">
+                        gauravkumar@gmail.com
                     </p>
                 </div>
 
-                <!-- Quikc links end -->
-
-                <hr class="mb-4">
-
-                <!-- Copy right -->
-                <div class="row align-items-center">
-                    <div class="col-md-7 col-lg-8">
-                        <p>Copyright 2023 All rights reserved by:
-                            <a href="" style="text-decoration: none;">
-                                <strong class="text-warning">JD Builders</strong>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                <!-- Copy right end -->
             </div>
+
         </div>
+
     </footer>
     <!-- Footer section end -->
 
