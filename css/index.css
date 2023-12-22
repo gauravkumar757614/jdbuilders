@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Concert+One&family=DM+Serif+Display:ital@0;1&family=Oswald:wght@400;500;600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
 
-/* font-family: 'Concert One', sans-serif;
+/* 
+font-family: 'Concert One', sans-serif;
 font-family: 'DM Serif Display', serif;
 font-family: 'Oswald', sans-serif;
-font-family: 'Poppins', sans-serif; */
+font-family: 'Poppins', sans-serif; 
+*/
+
+body {
+  overflow-x: hidden;
+}
 
 /* Navbar */
 .backcolor {
@@ -35,7 +41,7 @@ font-family: 'Poppins', sans-serif; */
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #86c5b4;
+  background-color: #ffa34d;
   visibility: hidden;
   transition: 0.3s ease-in-out;
 }
@@ -165,6 +171,7 @@ font-family: 'Poppins', sans-serif; */
 
 .basic_info #basic_para {
   font-family: "Poppins", sans-serif;
+  text-indent: 50px;
   color: #ffffff;
   font-size: 20px;
   text-align: justify;
@@ -175,6 +182,9 @@ font-family: 'Poppins', sans-serif; */
 /* Basic info end */
 
 /* Footer section */
+.footer_section h4 {
+  color: #fea24d;
+}
 
 .footer_section .company_defi {
   text-align: justify;
@@ -199,4 +209,18 @@ font-family: 'Poppins', sans-serif; */
   font-size: 25px;
 }
 
+.footer_section .address {
+  letter-spacing: 2px;
+}
+
+.footer_section ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer_section ul li a:hover {
+  color: #ff7c00;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
 /* Footer section end */

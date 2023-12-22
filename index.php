@@ -9,8 +9,6 @@
 
     <!-- External css links -->
     <link href="css/index.css" rel="stylesheet">
-    <link href="css/about.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
 
     <!-- Font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -78,7 +76,7 @@
                 <img src="asset/landing11.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>"Building Dreams, Crafting Realities – Your Trusted Construction Partner!"</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <p>"Crafting Dreams, Building Reality"</p>
                     <div class="slider-button">
                         <a href="#basic_heading" class="btn btn-primary"> Explore</a>
                         <a href="plans.php" class="btn btn-primary"> See Plans</a>
@@ -89,7 +87,7 @@
                 <img src="asset/landing12.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5> "Building Construction with Easy EMI - Your Dream Project, Now Affordable."</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <p>"Excellence in Every Brick"</p>
                     <div class="slider-button">
                         <a href="#basic_heading" class="btn btn-primary"> Explore</a>
                         <a href="plans.php" class="btn btn-primary"> See Plans</a>
@@ -99,8 +97,8 @@
             <div class="carousel-item">
                 <img src="asset/landing13.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5>"Dream Projects, Realized Affordably – Your Trusted Construction Ally!"</h5>
+                    <p>"Foundation of Trust, Walls of Quality"</p>
                     <div class="slider-button">
                         <a href="#basic_heading" class="btn btn-primary"> Explore</a>
                         <a href="plans.php" class="btn btn-primary"> See Plans</a>
@@ -194,7 +192,7 @@
 
                 <!-- Company address section -->
                 <div class="col-4">
-                    <h4>Contact us</h4>
+                    <h4>CONTACT US</h4>
                     <p class="address">
                         Aggarwal enclave, opposite miraj palace,
                         Ludhiana - 141001
@@ -204,10 +202,23 @@
                     </p>
                 </div>
 
+                <!-- Company quick links section -->
+                <div class="col-2">
+                    <h4>QUICK LINKS</h4>
+                    <ul class="quick_links">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="plans.php">plans</a></li>
+                        <li><a href="contact.php">Contact us</a></li>
+                    </ul>
+                </div>
             </div>
 
         </div>
 
+        <hr>
+        <p class="text-center">© 2023 JD BUILDERS. All Right Reserved.</p>
     </footer>
     <!-- Footer section end -->
 
@@ -216,8 +227,10 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
+            offset: 200,
             delay: 0,
             duration: 1000,
+
         });
     </script>
 
